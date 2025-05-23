@@ -1,6 +1,6 @@
 import { ChangeEvent, FC, KeyboardEvent, MouseEvent, useRef } from "react";
 import { Form, InputGroup } from "react-bootstrap";
-import DropdownIcon from "../assets/DropdownIcon";
+import DropdownIcon from "./DropdownIcon";
 
 interface IDropdownInputProps {
   value: string;
