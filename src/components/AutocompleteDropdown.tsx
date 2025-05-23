@@ -3,7 +3,6 @@ import {
   useEffect,
   useRef,
   ChangeEvent,
-  FC,
   useCallback,
   useMemo,
 } from "react";
@@ -22,6 +21,7 @@ import useScrollOnHighlight from "./useScrollOnHighlight";
 import DropdownInput from "./DropdownInput";
 import useOutsideClick from "./useOutsideClick";
 import DropdownOptions from "./DropdownOptions";
+import "../styles/autocomplete-dropdown.css";
 
 export interface ICustomInputProps<T extends Record<string, any> = any> {
   options: T[];

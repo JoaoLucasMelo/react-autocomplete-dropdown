@@ -1,4 +1,5 @@
 import { FC, useRef, useEffect } from "react";
+import "../styles/autocomplete-dropdown.css";
 
 interface IDropdownOptionsProps {
   options: { [key: string]: any }[];
